@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<samplemap ID="" SaveMode="0" FileName="" MicPositions="close;far;mix;mono;"
+           RRGroupAmount="1">
+  <sample Root="31" LoKey="7" HiKey="115" LoVel="0" HiVel="127" RRGroup="1"
+          Duplicate="0" LoopEnabled="1" LoopStart="320208" LoopEnd="2621952"
+          SampleStart="142967" LoopXFade="15">
+    <file FileName="{PROJECT_FOLDER}horsehair/horsehair_31_layer1_close.wav"/>
+    <file FileName="{PROJECT_FOLDER}horsehair/horsehair_31_layer1_far.wav"/>
+    <file FileName="{PROJECT_FOLDER}horsehair/horsehair_31_layer1_mix.wav"/>
+    <file FileName="{PROJECT_FOLDER}horsehair/horsehair_31_layer1_mono.wav"/>
+  </sample>
+</samplemap>

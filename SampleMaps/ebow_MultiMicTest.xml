@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<samplemap ID="ebow_MultiMicTest" SaveMode="2" FileName="" MicPositions="close;far;mix;mono;"
+           RRGroupAmount="1">
+  <sample Root="22" LoKey="10" HiKey="118" LoVel="0" HiVel="127" RRGroup="1"
+          Duplicate="1" LoopEnabled="1" LoopStart="240000" LoopEnd="3003648"
+          MonolithOffset="0" MonolithLength="3080192" SampleRate="48000">
+    <file FileName="{PROJECT_FOLDER}ebow/ebow_22_layer1_close.wav"/>
+    <file FileName="{PROJECT_FOLDER}ebow/ebow_22_layer1_far.wav"/>
+    <file FileName="{PROJECT_FOLDER}ebow/ebow_22_layer1_mix.wav"/>
+    <file FileName="{PROJECT_FOLDER}ebow/ebow_22_layer1_mono.wav"/>
+  </sample>
+</samplemap>

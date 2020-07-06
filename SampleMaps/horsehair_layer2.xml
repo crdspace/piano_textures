@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<samplemap ID="horsehair_layer2" RRGroupAmount="1" MicPositions=";" SaveMode="2">
+  <sample Root="31" LoKey="7" HiKey="115" LoVel="0" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}horsehair/horsehair_31_layer2.wav"
+          Duplicate="1" LoopEnabled="1" LoopStart="320208" LoopEnd="2621952"
+          MonolithOffset="0" MonolithLength="3964928" SampleRate="48000"
+          SampleStart="60597"/>
+</samplemap>

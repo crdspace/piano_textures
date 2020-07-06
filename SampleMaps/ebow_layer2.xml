@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<samplemap ID="ebow_layer2" RRGroupAmount="1" MicPositions=";" SaveMode="2">
+  <sample Root="22" LoKey="10" HiKey="118" LoVel="0" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}ebow/horsehair_22_layer2_mono.wav"
+          Duplicate="1" LoopEnabled="1" LoopStart="240000" LoopEnd="3003648"
+          MonolithOffset="0" MonolithLength="3080192" SampleRate="48000"/>
+</samplemap>

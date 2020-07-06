@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ContentProperties DeviceType="Desktop">
+  <Component type="ScriptPanel" id="pnlArticulations" x="0" y="2" width="138"
+             height="431">
+    <Component type="ScriptButton" id="btnEbowMuter" x="4" y="21" parentComponent="pnlArticulations"
+               processorId="muterEbow" parameterId="ignoreButton"/>
+    <Component type="ScriptButton" id="btnHorsehairMuter" x="4" y="55" parentComponent="pnlArticulations"
+               processorId="muterHorsehair" parameterId="ignoreButton"/>
+    <Component type="ScriptButton" id="btnHammersMuter" x="5" y="192" parentComponent="pnlArticulations"
+               processorId="muterHammers" parameterId="ignoreButton"/>
+    <Component type="ScriptButton" id="btnRivetsMuter" x="5" y="88" parentComponent="pnlArticulations"
+               processorId="muterRivets" parameterId="ignoreButton"/>
+    <Component type="ScriptButton" id="btnBooksMuter" x="5" y="158" parentComponent="pnlArticulations"
+               processorId="muterBooks" parameterId="ignoreButton"/>
+    <Component type="ScriptButton" id="btnHarmonicsMuter" x="3" y="123" parentComponent="pnlArticulations"
+               processorId="muterHarmonics" parameterId="ignoreButton"/>
+  </Component>
+  <Component type="ScriptPanel" id="pnlHorsehair" x="140" y="0" width="722"
+             height="670">
+    <Component type="ScriptButton" id="Button2" x="565" y="418" text="latch"
+               parentComponent="pnlHorsehair"/>
+    <Component type="ScriptButton" id="Button3" x="572" y="582" text="latch"
+               parentComponent="pnlHorsehair"/>
+    <Component type="ScriptButton" id="btnHorsehairLayer1Mono" x="142" y="249"
+               parentComponent="pnlHorsehair" text="monomode right click for glide window"
+               processorId="samplerHorsehairLayer1" isMetaParameter="1"/>
+    <Component type="ScriptSlider" id="knbHorsehairLayer1EnvDecay" x="276" y="200"
+               parentComponent="pnlHorsehair" mode="Time" max="20000" stepSize="1"
+               suffix=" ms" middlePosition="1000" text="Decay" processorId="envHorsehairLayer1"
+               parameterId="Decay"/>
+    <Component type="ScriptPanel" id="pnlHorsehairLayer1MicMix" x="100" y="5"
+               parentComponent="pnlHorsehair" width="577" height="191">
+      <Component type="ScriptButton" id="btnPurge0" x="31" y="117" parentComponent="pnlHorsehairLayer1MicMix"
+                 width="83" height="29" text="purge"/>
+      <Component type="ScriptSlider" id="knbHorsehairLayer1MicVolClose" x="57"
+                 y="14" parentComponent="pnlHorsehairLayer1MicMix" mode="Decibel"
+                 min="-100" max="0" stepSize="0.1" suffix=" dB" middlePosition="-18"
+                 dragDirection="Vertical" style="Vertical" width="36" height="80"
+                 processorId="gainHorsehairMicClose" parameterId="Gain"/>
+      <Component type="ScriptSlider" id="knbHorsehairLayer1MicVolMix" x="161"
+                 y="12" parentComponent="pnlHorsehairLayer1MicMix" mode="Decibel"
+                 min="-100" max="0" stepSize="0.1" suffix=" dB" middlePosition="-18"
+                 dragDirection="Vertical" style="Vertical" width="36" height="80"
+                 processorId="gainHorsehairMicMix" parameterId="Gain"/>
+      <Component type="ScriptSlider" id="knbHorsehairLayer1MicVolFar" x="260"
+                 y="10" parentComponent="pnlHorsehairLayer1MicMix" mode="Decibel"
+                 min="-100" max="0" stepSize="0.1" suffix=" dB" middlePosition="-18"
+                 dragDirection="Vertical" style="Vertical" width="36" height="80"
+                 processorId="gainHorsehairMicFar" parameterId="Gain"/>
+      <Component type="ScriptSlider" id="knbHorsehairLayer1MicVolMono" x="362"
+                 y="12" parentComponent="pnlHorsehairLayer1MicMix" mode="Decibel"
+                 min="-100" max="0" stepSize="0.1" suffix=" dB" middlePosition="-18"
+                 dragDirection="Vertical" style="Vertical" width="36" height="80"
+                 processorId="gainHorsehairMicMono" parameterId="Gain"/>
+      <Component type="ScriptLabel" id="Label1" x="10" y="94" parentComponent="pnlHorsehairLayer1MicMix"
+                 text="close"/>
+      <Component type="ScriptLabel" id="Label2" x="118" y="93" parentComponent="pnlHorsehairLayer1MicMix"
+                 text="mix"/>
+      <Component type="ScriptLabel" id="Label3" x="216" y="91" parentComponent="pnlHorsehairLayer1MicMix"
+                 text="far"/>
+      <Component type="ScriptLabel" id="Label4" x="320" y="91" parentComponent="pnlHorsehairLayer1MicMix"
+                 text="mono"/>
+      <Component type="ScriptButton" id="btnPurge1" x="147" y="112" parentComponent="pnlHorsehairLayer1MicMix"
+                 width="83" height="29" text="purge"/>
+      <Component type="ScriptButton" id="btnPurge2" x="249" y="113" parentComponent="pnlHorsehairLayer1MicMix"
+                 width="83" height="29" text="purge"/>
+      <Component type="ScriptButton" id="btnPurge3" x="349" y="112" parentComponent="pnlHorsehairLayer1MicMix"
+                 width="83" height="29" text="purge"/>
+    </Component>
+    <Component type="ScriptSlider" id="knbHorsehairLayer1EnvSustain" x="418"
+               y="199" parentComponent="pnlHorsehair" mode="Time" max="20000"
+               stepSize="1" suffix=" ms" middlePosition="1000" text="Sustain"
+               processorId="envHorsehairLayer1" parameterId="Sustain"/>
+    <Component type="ScriptSlider" id="knbHorsehairLayer1EnvRelease" x="557"
+               y="199" parentComponent="pnlHorsehair" mode="Time" max="20000"
+               stepSize="1" suffix=" ms" middlePosition="1000" text="Release"
+               processorId="envHorsehairLayer1" parameterId="Release"/>
+    <Component type="ScriptSlider" id="knbHorsehairLayer1EnvAttack" x="144"
+               y="200" parentComponent="pnlHorsehair" text="Attack" mode="Time"
+               max="20000" stepSize="1" suffix=" ms" middlePosition="1000" processorId="envHorsehairLayer1"
+               parameterId="Attack"/>
+    <Component type="ScriptSlider" id="knbHorsehairLayer1Width" x="7" y="240"
+               parentComponent="pnlHorsehair" max="200" min="1" middlePosition="100"
+               defaultValue="100" text="width" processorId="gainHorsehairLayer1"
+               parameterId="Width"/>
+    <Component type="ScriptSlider" id="knbHorsehairLayer1Vol" x="56" y="131"
+               middlePosition="-18" stepSize="0.1" min="-100" max="0" suffix=" dB"
+               mode="Decibel" dragDirection="Vertical" isVertical="0" parentComponent="pnlHorsehair"
+               width="35" height="70" style="Vertical" text="layer 1 volume"
+               processorId="gainHorsehairLayer1" parameterId="Gain"/>
+    <Component type="ScriptSlider" id="knbHorsehairLayer2Vol" x="60" y="310"
+               middlePosition="-18" stepSize="0.1" min="-100" max="0" suffix=" dB"
+               mode="Decibel" dragDirection="Vertical" isVertical="0" parentComponent="pnlHorsehair"
+               width="35" height="70" style="Vertical" text="layer 2 vol" processorId="gainHorsehairLayer2"
+               parameterId="Gain"/>
+    <Component type="ScriptSlider" id="knbHorsehairLayer3Vol" x="60" y="477"
+               middlePosition="-18" stepSize="0.1" min="-100" max="0" suffix=" dB"
+               mode="Decibel" dragDirection="Vertical" isVertical="0" parentComponent="pnlHorsehair"
+               width="35" height="70" style="Vertical" text="layer3 vol" processorId="gainHorsehairLayer3"
+               parameterId="Gain"/>
+    <Component type="ScriptSlider" id="knbHorsehairLayer2Width" x="5" y="410"
+               parentComponent="pnlHorsehair" max="200" min="1" middlePosition="100"
+               defaultValue="100" text="width" processorId="gainHorsehairLayer2"
+               parameterId="Width"/>
+    <Component type="ScriptSlider" id="knbHorsehairLayer3Width" x="7" y="583"
+               parentComponent="pnlHorsehair" max="200" min="1" middlePosition="100"
+               defaultValue="100" text="width" processorId="gainHorsehairLayer3"
+               parameterId="Width"/>
+    <Component type="ScriptSlider" id="knbHorsehairLayer1Pan" x="7" y="200"
+               parentComponent="pnlHorsehair" mode="Pan" min="-100" max="100"
+               stepSize="1" suffix="L" middlePosition="0" text="pan" processorId="gainHorsehairLayer1"
+               parameterId="Balance"/>
+    <Component type="ScriptSlider" id="knbHorsehairLayer2Pan" x="4" y="371"
+               parentComponent="pnlHorsehair" mode="Pan" min="-100" max="100"
+               stepSize="1" suffix="L" middlePosition="0" text="pan" processorId="gainHorsehairLayer2"
+               parameterId="Balance"/>
+    <Component type="ScriptSlider" id="knbHorsehairLayer3Pan" x="6" y="536"
+               parentComponent="pnlHorsehair" mode="Pan" min="-100" max="100"
+               stepSize="1" suffix="L" middlePosition="0" text="pan" processorId="gainHorsehairLayer3"
+               parameterId="Balance"/>
+    <Component type="ScriptSlider" id="knbHorsehairLayer2EnvDecay" x="273" y="372"
+               parentComponent="pnlHorsehair" mode="Time" max="20000" stepSize="1"
+               suffix=" ms" middlePosition="1000" text="Decay" processorId="envHorsehairLayer2"
+               parameterId="Decay"/>
+    <Component type="ScriptSlider" id="knbHorsehairLayer2EnvSustain" x="415"
+               y="371" parentComponent="pnlHorsehair" mode="Time" max="20000"
+               stepSize="1" suffix=" ms" middlePosition="1000" text="Sustain"
+               processorId="envHorsehairLayer2" parameterId="Sustain"/>
+    <Component type="ScriptSlider" id="knbHorsehairLayer2EnvRelease" x="554"
+               y="371" parentComponent="pnlHorsehair" mode="Time" max="20000"
+               stepSize="1" suffix=" ms" middlePosition="1000" text="Release"
+               processorId="envHorsehairLayer2" parameterId="Release"/>
+    <Component type="ScriptSlider" id="knbHorsehairLayer2EnvAttack" x="141"
+               y="372" parentComponent="pnlHorsehair" text="Attack" mode="Time"
+               max="20000" stepSize="1" suffix=" ms" middlePosition="1000" processorId="envHorsehairLayer2"
+               parameterId="Attack"/>
+    <Component type="ScriptSlider" id="knbHorsehairLayer3EnvDecay" x="284" y="533"
+               parentComponent="pnlHorsehair" mode="Time" max="20000" stepSize="1"
+               suffix=" ms" middlePosition="1000" text="Decay" processorId="envHorsehairLayer3"
+               parameterId="Decay"/>
+    <Component type="ScriptSlider" id="knbHorsehairLayer3EnvSustain" x="426"
+               y="532" parentComponent="pnlHorsehair" mode="Time" max="20000"
+               stepSize="1" suffix=" ms" middlePosition="1000" text="Sustain"
+               processorId="envHorsehairLayer3" parameterId="Sustain"/>
+    <Component type="ScriptSlider" id="knbHorsehairLayer3EnvRelease" x="565"
+               y="532" parentComponent="pnlHorsehair" mode="Time" max="20000"
+               stepSize="1" suffix=" ms" middlePosition="1000" text="Release"
+               processorId="envHorsehairLayer3" parameterId="Release"/>
+    <Component type="ScriptSlider" id="knbHorsehairLayer3EnvAttack" x="152"
+               y="533" parentComponent="pnlHorsehair" text="Attack" mode="Time"
+               max="20000" stepSize="1" suffix=" ms" middlePosition="1000" processorId="envHorsehairLayer3"
+               parameterId="Attack"/>
+    <Component type="ScriptButton" id="btnMicMixerVisibility" x="5" y="40" parentComponent="pnlHorsehair"
+               text="layer1 mic mix visibility" width="76" height="46"/>
+    <Component type="ScriptComboBox" id="ComboBox1" x="27" y="279" max="0" parentComponent="pnlHorsehair"
+               text="channel output"/>
+    <Component type="ScriptComboBox" id="ComboBox2" x="32" y="449" max="0" parentComponent="pnlHorsehair"
+               text="channel output"/>
+    <Component type="ScriptComboBox" id="ComboBox3" x="33" y="623" max="0" parentComponent="pnlHorsehair"
+               text="channel output"/>
+    <Component type="ScriptButton" id="btnHorsehairLayer1SamplerPurge" x="160"
+               y="278" parentComponent="pnlHorsehair" text="layer 1 purge" processorId="samplerHorsehairLayer1"
+               parameterId="Purged" width="113" height="32"/>
+    <Component type="ScriptButton" id="btnHorsehairLayer2SamplerPurge" x="172"
+               y="455" parentComponent="pnlHorsehair" text="layer 2 purge" processorId="samplerHorsehairLayer2"
+               parameterId="Purged"/>
+    <Component type="ScriptButton" id="btnHorsehairLayer3SamplerPurge" x="172"
+               y="625" parentComponent="pnlHorsehair" text="layer 3 purge" processorId="samplerHorsehairLayer3"
+               parameterId="Purged"/>
+    <Component type="ScriptButton" id="btnHorsehairLayer1SamplerReverse" x="276"
+               y="248" parentComponent="pnlHorsehair" text="layer 1 reverse"
+               processorId="samplerHorsehairLayer1" parameterId="Reversed"/>
+    <Component type="ScriptButton" id="btnHorsehairLayer2SamplerReverse" x="287"
+               y="421" parentComponent="pnlHorsehair" processorId="samplerHorsehairLayer2"
+               parameterId="Reversed" text="layer 2 reverse"/>
+    <Component type="ScriptButton" id="btnHorsehairLayer3SamplerReverse" x="295"
+               y="587" parentComponent="pnlHorsehair" processorId="samplerHorsehairLayer3"
+               parameterId="Reversed" text="layer 3 reverse"/>
+    <Component type="ScriptButton" id="btnHorsehairLayer2Mono" x="154" y="420"
+               parentComponent="pnlHorsehair" text="monomode right click for glide window"
+               processorId="samplerHorsehairLayer1" isMetaParameter="1"/>
+    <Component type="ScriptButton" id="btnHorsehairLayer3Mono" x="158" y="588"
+               parentComponent="pnlHorsehair" text="monomode right click for glide window"
+               processorId="samplerHorsehairLayer1" isMetaParameter="1"/>
+    <Component type="ScriptButton" id="Button1" x="567" y="248" text="latch"
+               parentComponent="pnlHorsehair"/>
+    <Component type="ScriptButton" id="Button4" x="570" y="249" parentComponent="pnlHorsehair"
+               text="loop"/>
+    <Component type="ScriptButton" id="Button5" x="568" y="419" parentComponent="pnlHorsehair"
+               text="loop"/>
+    <Component type="ScriptButton" id="Button6" x="575" y="583" parentComponent="pnlHorsehair"
+               text="loop"/>
+  </Component>
+</ContentProperties>
